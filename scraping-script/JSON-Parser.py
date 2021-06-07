@@ -2,13 +2,7 @@ import requests
 import csv
 
 import json
-from datetime import datetime
-
-class BookingInfo(object):
-    def __init__(self, id,bookingTime,bookingTimeScore):
-        self.id = id
-        self.bookingTime = bookingTime
-        self.bookingTimeScore= bookingTimeScore
+from datetime import datetime,date
 
 data = {}
 json_data = []
@@ -42,19 +36,29 @@ def requestBookingTime(id_list):
             bookingdata = result.text
             # print(bookingdata)
             json_bookingData = json.loads(bookingdata)[0]["availabilities"]
-            closest = json_bookingData[0]['time']
+            closest = json_bookingData[0]['time'] [:len(json_bookingData[0]['time'])-5] +'Z'
             item['bookingTime'] = closest
             # print(json_bookingData['time'][0])
     except:
         print("An exception occurred")
     return id_list
+# 2018-09-05T14:09:03Z
+# 2021-06-17T12:00:00Z
 def cross_check(id):
     for item in json_data:
         if item['fullyBooked'] == False and item['id'] == id:
             return True
     return False
-# def calculate_time_score(list):
-#     list.sort(key = lambda item: item['bookingTime'].strptime(i))
+def calculate_time_score(list):
+    list.sort(key = lambda item: datetime.strptime(item['bookingTime'],"%Y-%m-%dT%H:%M:%SZ"))
+    earlies = datetime.strptime(list[0]['bookingTime'],"%Y-%m-%dT%H:%M:%SZ")
+    furthest = datetime.strptime(list[len(list)-1]['bookingTime'],"%Y-%m-%dT%H:%M:%SZ")
+    delta = earlies - furthest
+
+    for item in list:
+        bPoint = datetime.strptime(item['bookingTime'],"%Y-%m-%dT%H:%M:%SZ")
+        item['bookingTimeScore'] = (bPoint - furthest) / delta * 100
+    return list
 # halifax_objects.append({'id': halifax_id[0], 'bookingTime': 'ASD 1500', 'bookingTimeScore' : 'asdasd'})
 for index in range(len(halifax_id)):
     if cross_check(halifax_id[index]):
@@ -63,6 +67,7 @@ for index in range(len(halifax_id)):
 print(halifax_objects[0])
 updated_halifax_object = requestBookingTime(halifax_objects)
 print(updated_halifax_object)
+print(calculate_time_score(updated_halifax_object))
 # print(halifax_objects[3]['id'])
 # print(len(halifax_objects))
 # for item in json_data:
