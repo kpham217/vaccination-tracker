@@ -1,1 +1,1 @@
-# vacccination-tracker
+# vaccination-tracker
