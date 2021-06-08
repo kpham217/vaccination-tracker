@@ -3,6 +3,17 @@ import csv
 
 import json
 from datetime import datetime,date
+import tweepy
+
+# Authenticate to Twitter
+auth = tweepy.OAuthHandler("PyH1EDxN8aRvU7nZ2gGBfqkDG",
+    "WEZueY7AR585u1PaH2pgeBDoXBqUYSIevrVm5QxxdLVaU3YdB3")
+auth.set_access_token("1401205897699938308-NrjWBTHUWk5puJOcZJqjpr8g8M13NF",
+    "ORT2D6vLsURaW7fdAvI11whd3U69v2aVr0hAZMlBwSo9b")
+
+api = tweepy.API(auth)
+
+
 
 data = {}
 json_data = []
@@ -20,12 +31,23 @@ except:
 
 halifax_id = []
 halifax_objects =[]
-with open ('./county-csv/Halifax_id.csv','r') as csv_file:
+with open ('F:/PycharmProjects/vaccination-tracker/scraping-script/population density data/Halifax.csv','r') as csv_file:
     reader =csv.reader(csv_file)
     next(reader) # skip first row
     for row in reader:
         halifax_id.append(row[0])
 print(halifax_id)
+
+
+def tweet(site):
+    try:
+        api.verify_credentials()
+        api.update_status(site)
+        print("Authentication OK")
+    except:
+        print("Error during authentication")
+
+
 def requestBookingTime(id_list):
     try:
         for item in id_list:
@@ -49,6 +71,13 @@ def cross_check(id):
         if item['fullyBooked'] == False and item['id'] == id:
             return True
     return False
+
+def name_search(id):
+    for item in json_data:
+        if item['id'] == id:
+            return item['durationDisplayEn']
+
+
 def calculate_time_score(list):
     list.sort(key = lambda item: datetime.strptime(item['bookingTime'],"%Y-%m-%dT%H:%M:%SZ"))
     earlies = datetime.strptime(list[0]['bookingTime'],"%Y-%m-%dT%H:%M:%SZ")
@@ -62,12 +91,23 @@ def calculate_time_score(list):
 # halifax_objects.append({'id': halifax_id[0], 'bookingTime': 'ASD 1500', 'bookingTimeScore' : 'asdasd'})
 for index in range(len(halifax_id)):
     if cross_check(halifax_id[index]):
-        halifax_objects.append({'id' : halifax_id[index], 'bookingTime': '', 'bookingTimeScore': ''})
+        halifax_objects.append({'id' : halifax_id[index], 'bookingTime': '', 'bookingTimeScore': '', 'siteName': ''})
 
-print(halifax_objects[0])
+# print(halifax_objects[0])
 updated_halifax_object = requestBookingTime(halifax_objects)
-print(updated_halifax_object)
-print(calculate_time_score(updated_halifax_object))
+# print(updated_halifax_object)
+updated_halifax_object_2=calculate_time_score(updated_halifax_object)
+# print(updated_halifax_object_2)
+updated_halifax_object_2 = updated_halifax_object_2[0:5]
+# print(updated_halifax_object_2)
+
+for i in updated_halifax_object_2:
+    print(i['id'])
+    i['siteName'] = name_search(i['id'])
+    tweet(i['siteName'])
+
+print(updated_halifax_object_2)
+
 # print(halifax_objects[3]['id'])
 # print(len(halifax_objects))
 # for item in json_data:
