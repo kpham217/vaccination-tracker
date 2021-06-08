@@ -10,9 +10,9 @@ def initialize_api():
 
 def create_tweet(api, site_list):
     site_list = site_list[0:2]
-    content = f"Earliest vaccination dates\n\n"
+    content = f"💉 Earliest vaccination dates\n\n"
     for item in site_list:
-        new = f"{item['siteName']}\n{item['readableBookingTime']}\n\n"
+        new = f"📍 {item['siteName']}\n🗓 {item['readableBookingTime']}\n\n"
         content = content + new
 
     print(content)
