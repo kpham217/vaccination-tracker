@@ -93,13 +93,13 @@ for index in range(len(halifax_id)):
     if cross_check(halifax_id[index]):
         halifax_objects.append({'id' : halifax_id[index], 'bookingTime': '', 'bookingTimeScore': '', 'siteName': ''})
 
-print(halifax_objects[0])
+# print(halifax_objects[0])
 updated_halifax_object = requestBookingTime(halifax_objects)
-print(updated_halifax_object)
+# print(updated_halifax_object)
 updated_halifax_object_2=calculate_time_score(updated_halifax_object)
-print(updated_halifax_object_2)
+# print(updated_halifax_object_2)
 updated_halifax_object_2 = updated_halifax_object_2[0:5]
-print(updated_halifax_object_2)
+# print(updated_halifax_object_2)
 
 for i in updated_halifax_object_2:
     print(i['id'])
