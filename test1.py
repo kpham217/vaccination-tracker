@@ -1,21 +1,48 @@
-import pytz
-import datetime
-local_tz = pytz.timezone('America/Halifax') # use your local timezone name here
-# NOTE: pytz.reference.LocalTimezone() would produce wrong result here
+import tweet_bot_credential
+import schedule
+import time
+import tweepy
 
-## You could use `tzlocal` module to get local timezone on Unix and Win32
-# from tzlocal import get_localzone # $ pip install tzlocal
 
-# # get local timezone
-# local_tz = get_localzone()
+counter = -1
 
-def utc_to_local(utc_dt):
-    local_dt = utc_dt.replace(tzinfo=pytz.utc).astimezone(local_tz)
-    return local_tz.normalize(local_dt) # .normalize might be unnecessary
 
-def aslocaltimestr(utc_dt):
-    return utc_to_local(utc_dt).strftime('%Y-%m-%d %H:%M:%S.%f %Z%z')
+def set_global():
+    global counter
+    counter += 1
+    if counter == 3:
+        counter = 0
 
-print(aslocaltimestr(datetime(2010,  6, 6, 17, 29, 7, 730000)))
-print(aslocaltimestr(datetime(2010, 12, 6, 17, 29, 7, 730000)))
-print(aslocaltimestr(datetime.utcnow()))
+
+def initialize_api():
+    api = tweet_bot_credential.create_api()
+    return api
+
+
+def create_tweet(api, site_list):
+    set_global()
+    new_list = site_list[counter]
+    print(str(counter)+'\n')
+    print(new_list+'\n')
+    new_list = new_list[0:2]
+    content = f"💉 Earliest vaccination dates\n\n"
+    for item in new_list:
+        new = f"📍 {item['siteName']}\n🗓 {item['readableBookingTime']}\n\n"
+        content = content + new
+
+    print(content)
+    try:
+        api.update_status(content)
+        print('> Content successfully posted on Twitter!')
+    except tweepy.TweepError:
+        print('Tweep Error:Status is a duplicate.')
+
+
+def create_bot(array, region_count):
+    time.sleep(240)
+    # initiate()
+    api = initialize_api()
+    schedule.every(2).minutes.do(create_tweet, api=api, site_list=array)
+    while True:
+        schedule.run_pending()
+        time.sleep(1)

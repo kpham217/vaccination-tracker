@@ -47,7 +47,7 @@ def request_booking_time(site_list, booking_time_link):
             closest = json_booking_data[0]['time'][:len(json_booking_data[0]['time'])-5] + 'Z'
             item['bookingTime'] = closest
         except IndexError:
-            print('no available data for this vax site')
+            print('IndexError: no available data for this vax site')
 
     result = [i for i in site_list if i['bookingTime'] != '']
     return result
@@ -70,11 +70,11 @@ def calculate_time_score(site_list):
 
 def utc_to_local(utc_dt):
     local_dt = utc_dt.replace(tzinfo=pytz.utc).astimezone(local_tz)
-    return local_tz.normalize(local_dt) # .normalize might be unnecessary
+    return local_tz.normalize(local_dt)  # normalize might be unnecessary
 
 
 def aslocaltimestr(utc_dt):
-    return utc_to_local(utc_dt).strftime('%a, %d %b %Y %H:%M:%S')
+    return utc_to_local(utc_dt).strftime('%a, %d %b %Y, %H:%M')
     # return utc_to_local(utc_dt).strftime('%Y-%m-%d %H:%M:%S.%f %Z%z')
 
 

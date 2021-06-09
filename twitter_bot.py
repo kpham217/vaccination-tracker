@@ -1,12 +1,18 @@
 import tweet_bot_credential
-import schedule
+# import schedule
 import time
+import tweepy
+import sched
+import threading
 
+WAIT_SECONDS = 120
 counter = -1
+
+
 def set_global():
     global counter
-    counter+=1
-    if counter ==3:
+    counter += 1
+    if counter == 3:
         counter = 0
 
 
@@ -17,39 +23,35 @@ def initialize_api():
 
 def create_tweet(api, site_list):
     set_global()
-    site_list = site_list[counter]
-    site_list = site_list[0:2]
+    new_list = site_list[counter]
+    new_list = new_list[0:2]
     content = f"💉 Earliest vaccination dates\n\n"
-    for item in site_list:
+    for item in new_list:
         new = f"📍 {item['siteName']}\n🗓 {item['readableBookingTime']}\n\n"
         content = content + new
 
     print(content)
-    api.update_status(content)
-    print('> Content posted on Twitter!')
+    try:
+        api.update_status(content)
+        print('> Content successfully posted on Twitter!')
+    except tweepy.TweepError:
+        print('Tweep Error:Status is a duplicate.')
 
-
-def set_order(region_count, counter):
-    counter += 1
-    if counter == region_count:
-        counter = 0
-    print(counter)
-    return counter
+    threading.Timer(WAIT_SECONDS, create_tweet, args=(api, site_list)).start()
 
 
 def create_bot(array, region_count):
-    time.sleep(120)
+    WAIT_SECONDS = 120
+    time.sleep(60)
+    # scheduler = sched.scheduler(time.time, time.sleep)
+    # scheduler = threading.Timer
     # initiate()
     api = initialize_api()
-    # set_order(region_count, 0)
-    schedule.every(1).minutes.do(create_tweet, api=api, site_list=array)#[set_order(region_count, counter)])
-    while True:
-        schedule.run_pending()
-        time.sleep(1)
 
-# create_tweet('', [])
-# create_tweet('', [])
-# create_tweet('', [])
-# create_tweet('', [])
-# create_tweet('', [])
-# create_tweet('', [])
+    # schedule.every(2).minutes.do(create_tweet, api=api, site_list=array)
+    # periodic(scheduler, 120, create_tweet, actionargs=(api, array))
+    # periodic(scheduler, 60, create_tweet, actionargs=
+    create_tweet(api, array)
+    # while True:
+    #     schedule.run_pending()
+    #     time.sleep(1)
