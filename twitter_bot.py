@@ -2,6 +2,13 @@ import tweet_bot_credential
 import schedule
 import time
 
+counter = -1
+def set_global():
+    global counter
+    counter+=1
+    if counter ==3:
+        counter = 0
+
 
 def initialize_api():
     api = tweet_bot_credential.create_api()
@@ -9,6 +16,8 @@ def initialize_api():
 
 
 def create_tweet(api, site_list):
+    set_global()
+    site_list = site_list[counter]
     site_list = site_list[0:2]
     content = f"💉 Earliest vaccination dates\n\n"
     for item in site_list:
@@ -24,14 +33,23 @@ def set_order(region_count, counter):
     counter += 1
     if counter == region_count:
         counter = 0
+    print(counter)
     return counter
 
 
 def create_bot(array, region_count):
     time.sleep(120)
-    counter = 0
+    # initiate()
     api = initialize_api()
-    schedule.every(2).minutes.do(create_tweet, api=api, site_list=array[set_order(region_count, counter)])
+    # set_order(region_count, 0)
+    schedule.every(1).minutes.do(create_tweet, api=api, site_list=array)#[set_order(region_count, counter)])
     while True:
         schedule.run_pending()
         time.sleep(1)
+
+# create_tweet('', [])
+# create_tweet('', [])
+# create_tweet('', [])
+# create_tweet('', [])
+# create_tweet('', [])
+# create_tweet('', [])

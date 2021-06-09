@@ -1,6 +1,9 @@
 import requests
 import json
 from datetime import datetime
+import pytz
+# import datetime
+local_tz = pytz.timezone('America/Halifax') # use your local timezone name here
 
 
 def create_eligible_list(ref_list, updated_list):
@@ -60,8 +63,19 @@ def calculate_time_score(site_list):
     for item in site_list:
         b_point = datetime.strptime(item['bookingTime'],"%Y-%m-%dT%H:%M:%SZ")
         item['bookingTimeScore'] = (b_point - furthest) / delta * 100
-        item['readableBookingTime'] = b_point.strftime('%a, %d %b %Y %H:%M:%S')
+        # item['readableBookingTime'] = b_point.strftime('%a, %d %b %Y %H:%M:%S')
+        item['readableBookingTime'] = aslocaltimestr(b_point)
     return site_list
+
+
+def utc_to_local(utc_dt):
+    local_dt = utc_dt.replace(tzinfo=pytz.utc).astimezone(local_tz)
+    return local_tz.normalize(local_dt) # .normalize might be unnecessary
+
+
+def aslocaltimestr(utc_dt):
+    return utc_to_local(utc_dt).strftime('%a, %d %b %Y %H:%M:%S')
+    # return utc_to_local(utc_dt).strftime('%Y-%m-%d %H:%M:%S.%f %Z%z')
 
 
 def processing(ref_list, updated_list, booking_time_link):
