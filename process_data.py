@@ -33,16 +33,21 @@ def create_eligible_list(ref_list, updated_list):
 
 def request_booking_time(site_list, booking_time_link):
     print("> Request booking time for each site")
-    for item in site_list:
+    for index, item in enumerate(site_list):
         request = booking_time_link[0] + item['id'] + booking_time_link[1]
+        # print(request)
         result = requests.get(request)
         bookingdata = result.text
         # print(bookingdata)
-        json_booking_data = json.loads(bookingdata)[0]["availabilities"]
-        closest = json_booking_data[0]['time'][:len(json_booking_data[0]['time'])-5] + 'Z'
-        item['bookingTime'] = closest
+        try:
+            json_booking_data = json.loads(bookingdata)[0]["availabilities"]
+            closest = json_booking_data[0]['time'][:len(json_booking_data[0]['time'])-5] + 'Z'
+            item['bookingTime'] = closest
+        except IndexError:
+            print('no available data for this vax site')
 
-    return site_list
+    result = [i for i in site_list if i['bookingTime'] != '']
+    return result
 
 
 def calculate_time_score(site_list):
