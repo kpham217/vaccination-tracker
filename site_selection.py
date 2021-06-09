@@ -4,7 +4,7 @@ import threading
 import time
 
 
-WAIT_SECONDS = 300
+WAIT_SECONDS = 3600
 
 
 def run(array, files, file_count, data_link, booking_time_link):

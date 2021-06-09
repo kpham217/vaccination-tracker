@@ -5,7 +5,7 @@ import tweepy
 import sched
 import threading
 
-WAIT_SECONDS = 120
+WAIT_SECONDS = 900
 counter = -1
 
 
@@ -41,7 +41,7 @@ def create_tweet(api, site_list):
 
 
 def create_bot(array, region_count):
-    WAIT_SECONDS = 120
+    # WAIT_SECONDS = 120
     time.sleep(60)
     # scheduler = sched.scheduler(time.time, time.sleep)
     # scheduler = threading.Timer
