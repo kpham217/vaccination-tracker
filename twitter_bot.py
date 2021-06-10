@@ -29,7 +29,8 @@ def create_tweet(api, site_list):
     for item in new_list:
         new = f"📍 {item['siteName']}\n🗓 {item['readableBookingTime']}\n\n"
         content = content + new
-
+    content += "Book here: https://novascotia.flow.canimmunize.ca/en/9874123-19-7418965?fbclid=IwAR0mx8GuTcL47-cqAEafer6xSHSAOZaedJcPx_n5XcDrSqWGn4MoxmMnC0c\n"
+    content += "#NS #COVID19\n"
     print(content)
     try:
         api.update_status(content)
