@@ -34,8 +34,9 @@ def create_tweet(api, site_list):
     content += "#NS #COVID19\n"
     print(content)
     try:
-        api.update_status(content)
-        print('> Content successfully posted on Twitter!')
+        # api.update_status(content)
+        # print('> Content is successfully posted on Twitter!')
+        print('> Posting function is suspended for 72 hours (as of 6pm, June 2021) !')
     except Exception as e:
         raise tweepy.TweepError(e)
     # except tweepy.TweepError:
