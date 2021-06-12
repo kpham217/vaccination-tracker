@@ -1,3 +1,0 @@
-import os
-
-result = [{'asdasd'}, {}]

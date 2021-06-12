@@ -4,11 +4,11 @@ import time
 import tweepy
 import random
 import threading
-
-WAIT_SECONDS = 900
-counter = -0
 import itertools
 
+
+WAIT_SECONDS = 900
+counter = -1
 
 
 def set_global():
@@ -19,11 +19,12 @@ def set_global():
 
 
 def initialize_api():
-    api = tweet_bot_credential.create_api()
-    return api
+    api_tw = tweet_bot_credential.tw_create_api()
+    api_fb = tweet_bot_credential.fb_create_app()
+    return api_tw, api_fb
 
 
-def create_tweet(api, site_list):
+def create_tweet(api_tw, api_fb, site_list):
     set_global()
     new_list = site_list[counter]
     alist = [0, 1, 2, 3, 4]
@@ -56,21 +57,24 @@ def create_tweet(api, site_list):
     # content += "#NS #COVID19\n"
     print(content)
     try:
+        # [Twitter] Post a Tweet on Twitter
         # api.update_status(content)
-        print('> Content successfully posted on Twitter!')
-    except tweepy.TweepError:
-        print('Tweep Error:Status is a duplicate.')
-        # print('> Content is successfully posted on Twitter!')
+        # print('> Content successfully posted on Twitter!')
         print('> Posting function is suspended for 72 hours (as of 6pm, June 2021) !')
-    except Exception as e:
-        raise tweepy.TweepError(e)
-    # except tweepy.TweepError:
-    #     print('Tweep Error:Status is a duplicate.')
 
-    threading.Timer(WAIT_SECONDS, create_tweet, args=(api, site_list)).start()
+        # [Facebook] Post a message in the facebook page
+        api_fb.put_object("me", "feed", message=content)
+        print('> Content successfully posted on FaceBook!')
+
+    except Exception as e:
+        raise e
+        # raise tweepy.TweepError(e)
+
+
+    threading.Timer(WAIT_SECONDS, create_tweet, args=(api_tw, api_fb, site_list)).start()
 
 
 def create_bot(array, region_count):
     time.sleep(60)
-    api = initialize_api()
-    create_tweet(api, array)
+    api_tw, api_fb = initialize_api()
+    create_tweet(api_tw, api_fb, array)

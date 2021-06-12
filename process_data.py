@@ -59,11 +59,15 @@ def calculate_time_score(site_list):
     earliest = datetime.strptime(site_list[0]['bookingTime'], "%Y-%m-%dT%H:%M:%SZ")
     furthest = datetime.strptime(site_list[len(site_list)-1]['bookingTime'], "%Y-%m-%dT%H:%M:%SZ")
     delta = earliest - furthest
+    # print(delta)
 
     for item in site_list:
         b_point = datetime.strptime(item['bookingTime'],"%Y-%m-%dT%H:%M:%SZ")
-        item['bookingTimeScore'] = (b_point - furthest) / delta * 100
-        # item['readableBookingTime'] = b_point.strftime('%a, %d %b %Y %H:%M:%S')
+        try:
+            item['bookingTimeScore'] = (b_point - furthest) / delta * 100
+        except ZeroDivisionError:
+            item['bookingTimeScore'] = 100
+
         item['readableBookingTime'] = aslocaltimestr(b_point)
     return site_list
 
