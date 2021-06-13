@@ -90,5 +90,5 @@ def processing(ref_list, updated_list, booking_time_link):
     if available_site_list:
         available_site_list = request_booking_time(available_site_list, booking_time_link)
         available_site_list = calculate_time_score(available_site_list)
-        available_site_list = available_site_list[0:5]
+        available_site_list = available_site_list[0:20]
     return available_site_list

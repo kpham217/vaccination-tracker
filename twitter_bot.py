@@ -19,9 +19,9 @@ def set_global(region_count):
 
 
 def initialize_api():
-    api_tw = tweet_bot_credential.tw_create_api()
+    # api_tw = tweet_bot_credential.tw_create_api()
     api_fb = tweet_bot_credential.fb_create_app()
-    # api_tw =1
+    api_tw =1
     # api_fb=1
     return api_tw, api_fb
 
@@ -88,4 +88,4 @@ def create_tweet(api_tw, api_fb, site_list,region_count):
 def create_bot(array, region_count):
     time.sleep(60)
     api_tw, api_fb = initialize_api()
-    create_tweet(api_tw, api_fb, array,region_count)
+    create_tweet(api_tw, api_fb, array, region_count)

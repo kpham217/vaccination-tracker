@@ -18,7 +18,7 @@ def get_updated_data(link):
 def get_ref_data(path):
     id_list = []
     with open (path,'r') as csv_file:
-        reader =csv.reader(csv_file)
+        reader = csv.reader(csv_file)
         next(reader) # skip first row
         for row in reader:
             id_list.append(row[0])
