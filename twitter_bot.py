@@ -7,14 +7,14 @@ import threading
 import itertools
 
 
-WAIT_SECONDS = 1800#900
+WAIT_SECONDS = 900
 counter = -1
 
 
-def set_global():
+def set_global(region_count):
     global counter
     counter += 1
-    if counter == 4:
+    if counter == region_count:
         counter = 0
 
 
@@ -26,10 +26,10 @@ def initialize_api():
     return api_tw, api_fb
 
 
-def create_tweet(api_tw, api_fb, site_list):
-    set_global()
+def create_tweet(api_tw, api_fb, site_list,region_count):
+    set_global(region_count)
     new_list = site_list[counter]
-    alist = [0, 1, 2, 3, 4]
+    # alist = [0, 1, 2, 3, 4]
     if new_list:
         # combinations_object = itertools.combinations(alist, 2)
         # combinations_list = list(combinations_object)
@@ -43,15 +43,22 @@ def create_tweet(api_tw, api_fb, site_list):
         #         break
         # content += "Book here: https://tinyurl.com/ns-vax-book\n"
 
-
-        sample = list(range(0, len(new_list)))
-        random_seed = random.sample(sample, 2)
-        content = f"💉 Earliest vaccination dates\n\n"
-        for i in random_seed:
-            new = f"📍 {new_list[i]['siteName']}\n🗓 {new_list[i]['readableBookingTime']}\n\n"
+        if len(new_list) == 1:
+            content = f"💉 Earliest vaccination dates\n\n"
+            new = f"📍 {new_list[0]['siteName']}\n🗓 {new_list[0]['readableBookingTime']}\n\n"
             content = content + new
-        content += "Book here: https://tinyurl.com/ns-vax-book\n"
-        # content += "#NS #COVID19\n"
+            content += "Book here: https://tinyurl.com/ns-vax-book\n"
+            content += "#NS #COVID19\n"
+        else:
+            sample = list(range(0, len(new_list)))
+            random_seed = random.sample(sample, 2)
+            content = f"💉 Earliest vaccination dates\n\n"
+            for i in random_seed:
+                new = f"📍 {new_list[i]['siteName']}\n🗓 {new_list[i]['readableBookingTime']}\n\n"
+                content = content + new
+            content += "Book here: https://tinyurl.com/ns-vax-book\n"
+            # content += "#NS #COVID19\n"
+
 
 
         # for item in new_list:
@@ -75,10 +82,10 @@ def create_tweet(api_tw, api_fb, site_list):
             # raise tweepy.TweepError(e)
 
 
-    threading.Timer(WAIT_SECONDS, create_tweet, args=(api_tw, api_fb, site_list)).start()
+    threading.Timer(WAIT_SECONDS, create_tweet, args=(api_tw, api_fb, site_list, region_count)).start()
 
 
 def create_bot(array, region_count):
     time.sleep(60)
     api_tw, api_fb = initialize_api()
-    create_tweet(api_tw, api_fb, array)
+    create_tweet(api_tw, api_fb, array,region_count)
