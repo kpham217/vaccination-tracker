@@ -1,0 +1,322 @@
+id,clinicName,gisX,gisY,counties,density
+10a48225-b0ce-4094-b74f-baabf14dc6b9,"Yarmouth (NSCC Burridge) -- COVID-19 Community Clinic",250467,4860196,Yarmouth,11.7
+6e7d29d9-356e-4d59-ab5e-0a0cc6eda43a,"Amherst -- COVID-19 Community Clinic",406767,5073901,Cumberland,7.1
+2b4dd766-faf9-4b46-a148-4588da524e1f,"Amherst Medical Associates - Pfizer",407506,5075083,Cumberland,7.1
+aa7bef30-e149-4c88-9b99-90e339c11c27,"Amherst - Amherst Pharmasave - Pfizer",407506,5075083,Cumberland,7.1
+d0e5186c-f32f-4576-acad-28f78ba17e26,"Amherst - Lawtons Drugs 2562 - Pfizer",405719,5076149,Cumberland,7.1
+e6e2c539-887f-48d4-923d-183e03377879,"Amherst - Loblaw Pharmacy 312 - Pfizer",406607,5074304,Cumberland,7.1
+b9c12d72-990d-4f78-97c1-9099b3a95384,"Amherst - Sobeys Pharmacy 729 (By Maritime Travel) - Pfizer",406606,5073908,Cumberland,7.1
+39ff88d4-cb95-4858-a485-36a1e6c2954d,"Amherst - Walmart Pharmacy 5789 - Pfizer",406847,5074364,Cumberland,7.1
+082333dd-4c6a-48c6-92a9-b7afcfeed2c3,"Annapolis Royal - Hutchins Guardian Pharmacy - Pfizer",300622,4957484,Annapolis,6.7
+5286eace-5d8f-4b2a-b7df-56dfece34e4a,"Antigonish - Hines PharmaChoice - Pfizer",578740,5052634,Antigonish,13.5
+e6a66823-1c3a-4025-805c-204a83a37e77,"Antigonish - Lawtons Drugs 111 - Pfizer",579283,5052037,Antigonish,13.5
+9e7e66bf-1e53-4017-b583-a5be79da5503,"Antigonish - Lawtons Drugs 111 - Moderna",617480,5027334,Guysborough,1.9
+b779f2a2-4377-4650-a194-a9d0d74a1406,"Antigonish - Loblaw Pharmacy 309 - Pfizer",576743,5051081,Antigonish,13.5
+ee91bf3e-bdf3-4dd8-8780-cd48b6d0843d,"Antigonish - MacKinnons Pharmasave - Pfizer",578709,5052568,Antigonish,13.5
+fae72adc-99cd-4f23-b900-ee8bc3f6e655,"Antigonish - Shoppers Drug Mart 143 - Pfizer",578572,5052562,Antigonish,13.5
+e0a1b525-cae6-4ce7-a11b-ebff48bd90c5,"Antigonish - Shoppers Drug Mart 143 - Moderna",578549,5052621,Antigonish,13.5
+1abc4c13-ebdc-4587-b91e-ff54cdc31459,"Antigonish (St Francis Xavier) -- COVID-19 Community Clinic",578462,5052014,Antigonish,13.5
+517c122b-1f27-40ba-9989-18da2286055c,"Antigonish - Walmart Pharmacy 1014 - Pfizer",576847,5051021,Antigonish,13.5
+cf046dd7-aed6-4a81-9cc9-70fcd639ba52,"Arichat - Island Guardian Pharmacy (New Horizons Seniors Club) - Pfizer",654215,5041661,Richmond,7.4
+6a88e3d9-49fd-462f-b6dc-6415058f74e3,"Aylesford - Chisholms PharmaChoice - Pfizer",355392,4987694,Kings,29.4
+b2c9f34d-14f0-470e-988f-ccd65ffff8ec,"Aylesford - Chisholms PharmaChoice - Moderna",355392,4987694,Kings,29.4
+0f5e2f23-a149-49f6-b656-d699f901c509,"Baddeck - Stones Pharmasave (Knox Presbyterian Hall) - Pfizer",673773,5107766,Victoria,2.5
+42ec5004-f9a7-4aec-a828-c7a6a2d7a2eb,"Baddeck - Stones Pharmasave - Pfizer",673778,5107655,Victoria,2.5
+82c2b857-86f1-4b81-a4ad-8ecfc226cae3,"Barrington Passage - Loblaw Pharmacy 6807 - Pfizer",288657,4821952,Shelburne,5.7
+c8f5d755-129f-4735-87e9-ddd08f356c00,"Barrington Passage - Sobeys Pharmacy 323 - Pfizer",289008,4822637,Shelburne,5.7
+e89100ee-bc0c-402c-a8d1-80536cb271bd,"Bass River - Bayside Guardian Pharmacy - Pfizer",440800,5028726,Colchester,14.1
+f5131cef-00ff-4233-810f-fe828df4e085,"Beaver Bank - Beaver Bank Guardian Pharmacy -  Moderna",445592,4960886,Halifax,78.3
+b58084cc-4e39-4a3f-8cd8-bfe6b7436e71,"Bedford - Bedford Guardian Pharmacy - Pfizer",446203,4950002,Halifax,78.3
+a47755e5-af1d-4d2c-a5b5-52accdc6446c,"Bedford - Brookline Pharmasave - Moderna",443827,4950722,Halifax,78.3
+264d1b16-526a-4107-97bd-f50f4e81af03,"Bedford - Lawtons Drugs 2568 (Peakview Way) - Pfizer",445429,4949720,Halifax,78.3
+c0997aa6-cae9-4e94-b4db-a5903a508bdf,"Bedford - Lawtons Drugs 845 (Mill Cove Plaza) - Pfizer",446335,4951626,Halifax,78.3
+96fd5fb7-2e08-4dbf-baea-de278c743c3d,"Bedford - Lawtons Drugs 845 (Mill Cove Plaza) - Moderna",446348,4951627,Halifax,78.3
+a5914799-8191-4950-bc13-1c57802fdde6,"Bedford - Loblaw Pharmacy 378 (Bedford Highway) - Pfizer",447934,4953654,Halifax,78.3
+802b2a77-1d79-4fd9-a479-fe5d7078587c,"Bedford - Shoppers Drug Mart 125 (Sunnyside Mall) - Pfizer",448195,4953511,Halifax,78.3
+b999e9a5-e78d-42ab-b043-8bc917cf3a67,"Bedford - Shoppers Drug Mart 2023 (Dellridge Lane) - Pfizer",445558,4949983,Halifax,78.3
+8cdedff6-5fd8-4c2d-887f-a1a411770f6a,"Bedford - Shoppers Drug Mart 584 (Bedford Highway) - Pfizer",446236,4951610,Halifax,78.3
+88843334-d9ed-459e-b198-ef07ad0bc3cb,"Bedford - Sobeys Pharmacy 580 (Mill Cove Plaza) - Pfizer",446505,4951515,Halifax,78.3
+793af975-8a1e-4c35-9bf8-c9996ddbca7b,"Bedford - Sobeys Pharmacy 725 (Peakview Way) - Pfizer",445553,4949598,Halifax,78.3
+4302fef0-021d-4420-b8d0-1d30ba7d0a2c,"Bedford - Walmart Pharmacy 3081 (Damascus Road) - Pfizer",449070,4955701,Halifax,78.3
+4ed4db65-071c-427e-b849-f174c926623b,"Berwick - Larrys Pharmacy - Pfizer",363411,4989127,Kings,29.4
+3a1723bc-5329-4c7f-8e4e-cc35354d166e,"Berwick - Wilsons Pharmasave 521 - Pfizer",363270,4989338,Kings,29.4
+7b01d9b3-7896-425f-87ad-4c8eac6d1fa7,"Bible Hill - Village Family PharmaChoice - Pfizer",481066,5025341,Colchester,14.1
+cefcb291-e9ec-4c07-b3b7-31656a189424,"Bridgetown - Bridgetown Pharmasave (Bridgetown Fire Hall) - Pfizer",318475,4968160,Annapolis,6.7
+9235327e-5554-4da0-9556-95e529347827,"Bridgetown - Bridgetown Pharmasave (Lawrencetown Community Health Centre) - Pfizer",329532,4972165,Annapolis,6.7
+193c4cbb-21e6-4060-b865-3a7f372f8218,"Bridgewater (NSCC - Lunenburg Campus) -- COVID-19 Clinic",378162,4914194,Lunenburg,16.5
+d46eef33-558e-4167-adce-28dfdc575a5d,"Bridgewater - Bridgewater Guardian Pharmacy (Bridgewater Baptist Church) - Pfizer",380441,4914638,Lunenburg,16.5
+74555f19-7aa5-4e50-b3b7-b2b9b06a93e7,"Bridgewater - Bridgewater Guardian Pharmacy - Pfizer",379405,4915610,Lunenburg,16.5
+22802f2e-f18e-4d09-9d15-20c09615f48d,"Bridgewater - Bridgewater Pharmasave - Pfizer",378347,4914097,Lunenburg,16.5
+67233401-d3ac-4436-b993-7c45070e8ccb,"Bridgewater - Bridgewater Pharmasave - Moderna",378451,4914191,Lunenburg,16.5
+c28a06db-1226-4b5f-adb0-f93fadaf575f,"Bridgewater - Lawtons Drugs 2565 - Pfizer",379296,4915824,Lunenburg,16.5
+eb8be3c2-a75a-4be6-ab2d-f1fb257cd1d6,"Bridgewater - Loblaw Pharmacy 337 - Pfizer",379037,4915336,Lunenburg,16.5
+a02ce223-f360-4d3c-9c56-bdfc9fc7792a,"Bridgewater - Shoppers Drug Mart 139 - Pfizer",379260,4914889,Lunenburg,16.5
+cd8ee9a5-6bed-48fb-8464-35ed780f59c8,"Bridgewater - Walmart Pharmacy 1003 - Pfizer",377912,4917590,Lunenburg,16.5
+a79d5134-f44c-4ca9-a5c8-9737b36bb39b,"Caledonia - Caledonia PharmaChoice (North Queens Fire Department) - Pfizer",338469,4915606,Queens,4.3
+ff42ce3d-e6bf-4c49-8feb-16bcb17c62de,"Canso - Canso PharmaChoice 1141 - Pfizer",657096,5022255,Guysborough,1.9
+4872a826-bca4-4cef-98c5-997eb1d58cb9,"Chester - Chester Pharmasave (OHC Community Health Centre) - Pfizer",402059,4933335,Lunenburg,16.5
+c3ea1826-dce3-448e-8780-afefd37626e9,"Chester - Chester Pharmasave - Moderna",402059,4933335,Lunenburg,16.5
+984db8a8-8bd7-428c-b70d-bebb24ece240,"Cheticamp - Cheticamp Pharmacy (La Salle des Retraites) - Moderna",651981,5165332,Inverness,4.5
+c3c4e5ed-2c7f-4288-af65-1ecca316a771,"Cheticamp - Cheticamp Pharmacy - Pfizer",652437,5166496,Inverness,4.5
+73346373-c5af-42b3-b809-e02034b067fa,"Coldbrook - Maders PharmaChoice - Pfizer",374077,4991058,Kings,29.4
+d22ffa67-0b64-49bf-bd67-35301c818695,"Coldbrook - Maders PharmaChoice - Moderna",374077,4991058,Kings,29.4
+b4428656-70d7-4937-b82f-5395b6a71ed6,"Dartmouth - Costco Pharmacy 551 - Pfizer",455112,4950370,Halifax,78.3
+d3c1fdbd-23f6-4208-8ac9-009c34dc1dcf,"Dartmouth -- COVID-19 Community Clinic",456809,4949397,Halifax,78.3
+3619c768-c57e-4fc1-800b-9b76d9f790f6,"Dartmouth - Dartmouth Gate Guardian Pharmacy - Pfizer",456854,4944135,Halifax,78.3
+edfdf3b9-659b-4304-b703-a657bf9a2717,"Dartmouth - Family Drug Centre PharmaChoice 127 - Pfizer",456516,4946087,Halifax,78.3
+2f2271fd-adeb-4f10-acc7-7ca71b2dfdfb,"Dartmouth - Highfield Park PharmaChoice - Pfizer",453175,4948478,Halifax,78.3
+5ca37232-c59f-4daf-a361-8e8b3de0d144,"Dartmouth - Kytes PharmaChoice (Forest Hills Fellowship Baptist Church) - Pfizer",460409,4946599,Halifax,78.3
+bcf689b4-9996-483f-932d-ac7788dd317a,"Dartmouth - Lawtons Drugs 104 (Portland Street) - Pfizer",455064,4945894,Halifax,78.3
+9fc91072-7471-4d79-8dd1-9c2cd5ed6c44,"Dartmouth - Lawtons Drugs 123 (Primrose Street) - Pfizer",453576,4947744,Halifax,78.3
+8deaec37-8fb7-4716-a64c-8dfdb2faef54,"Dartmouth - Lawtons Drugs 124 (Cole Harbour Road) - Pfizer",460708,4946514,Halifax,78.3
+5772683a-49c0-438f-8cd1-e1b349b31343,"Dartmouth - Lawtons Drugs 2749 (Baker Drive) - Pfizer",458014,4944948,Halifax,78.3
+547b9295-99c8-4f87-945a-8853e2e0e1da,"Dartmouth - Lawtons Drugs 884 (Westphal) - Pfizer",456991,4947640,Halifax,78.3
+b8c76980-6376-45f6-a025-5858cf96bcf0,"Dartmouth - Loblaw Pharmacy 352 (Portland Street) - Pfizer",458588,4946417,Halifax,78.3
+c643fed5-dac8-4da5-9646-403d6ec4a230,"Dartmouth - Loblaw Pharmacy 380 (Braemar Drive) - Pfizer",456498,4947655,Halifax,78.3
+72690f4a-5997-4d7f-9213-ad8bdf80d8dc,"Dartmouth - Loblaw Pharmacy 384 (Cole Harbour Road) - Pfizer",460532,4946452,Halifax,78.3
+37885526-4d4e-46c2-bd91-d510d369f237,"Dartmouth - Mackays PharmaChoice (North Woodside Community Centre) - Pfizer",456290,4945128,Halifax,78.3
+b2d39ae2-0f5c-4824-8be8-cd2e4e4538b6,"Dartmouth - Mackays PharmaChoice (South End Baptist Church) - Pfizer",456824,4945936,Halifax,78.3
+cc309c8d-edcd-4f7b-a084-e9fb8fa08879,"Dartmouth - Moffatts PharmaChoice (St James United Hall) - Pfizer",455363,4946223,Halifax,78.3
+994c5ef4-0ae5-4487-a660-9127a443b429,"Dartmouth - Shoppers Drug Mart 127 (Forest Hills Parkway) - Pfizer",460955,4946738,Halifax,78.3
+69d18a96-6819-412b-845a-be905513d8d6,"Dartmouth - Shoppers Drug Mart 128 (Tacoma Drive) - Pfizer",457491,4947496,Halifax,78.3
+899fed04-65d3-40fc-9257-f9961322dacd,"Dartmouth - Shoppers Drug Mart 129 (Mic Mac Mall) - Pfizer",455661,4948283,Halifax,78.3
+1033ffdc-6af8-46e5-a707-20bcd9fa0069,"Dartmouth - Shoppers Drug Mart 2014 (Portland Street) - Pfizer",458433,4946582,Halifax,78.3
+7516ee5b-75b4-4d90-b2c2-3c47a1e44bed,"Dartmouth - Sobeys Pharmacy 622 (Highway 7) - Pfizer",460620,4949032,Halifax,78.3
+58e15dde-1612-4bb1-9b79-b6893c876739,"Dartmouth - Sobeys Pharmacy 758 (Baker Drive) - Pfizer",457899,4944778,Halifax,78.3
+5ece2fee-6143-4787-b7c9-0f7403903ec3,"Dartmouth - Sobeys Pharmacy 772 (Tacoma Drive) - Pfizer",457377,4947464,Halifax,78.3
+85f71907-3078-4c9e-b89e-ceeb5f1595fc,"Dartmouth - Sobeys Pharmacy 776 (Portland Street) - Pfizer",457197,4946696,Halifax,78.3
+a90ebcdc-c4a1-4fc5-9883-e04755736f4d,"Dartmouth - Sobeys Pharmacy 806 (Wyse Road) - Pfizer",453782,4946939,Halifax,78.3
+e9d84244-7436-46f8-b2c8-083e4fe05b05,"Dartmouth - The Medicine Shoppe Pharmacy 287 (Baker Drive) - Pfizer",458038,4945564,Halifax,78.3
+5114fa0c-53db-4904-bb1a-65580a6f65aa,"Dartmouth - Tiny Oak Pharmacy - Pfizer",456380,4945088,Halifax,78.3
+021a4a6b-40d4-4b03-8cdb-5ebf03c4ceb2,"Dartmouth - Walmart Pharmacy 1176 (Cole Harbour Road) - Pfizer",460293,4946442,Halifax,78.3
+c8d9add0-844d-4460-b296-420af8af1580,"Dartmouth - Walmart Pharmacy 3021 (Lamont Terrace) - Pfizer",454890,4949531,Halifax,78.3
+aec4bee3-8220-4767-a55e-0ef0f19a9614,"Dartmouth - Waverley Road PharmaChoice - Pfizer",456571,4949564,Halifax,78.3
+37aea57b-9245-40ea-904f-fcb8095c5796,"Dartmouth - Westphal PharmaChoice - Pfizer",457485,4947642,Halifax,78.3
+51830690-4c4a-44e0-b42f-5fd9f5c0cc25,"Digby - Balsers PharmaChoice - Pfizer",280755,4944194,Digby,7
+0b019720-f76b-4af0-a12b-8d521158c84b,"Digby - Balsers PharmaChoice - Moderna",280890,4944064,Digby,7
+24017ff0-9823-45a6-9126-49ff0285cee1,"Digby - Loblaw Pharmacy 339 - Pfizer",279984,4942276,Digby,7
+a48c1c2d-2fb0-4f88-a763-9736f94188d4,"Digby - Shoppers Drug Mart 154 - Pfizer",280680,4944057,Digby,7
+2b21db37-b18e-4e0d-be76-1d0dcc17cf2d,"Digby - Shoppers Drug Mart 154 - Moderna",280491,4944084,Digby,7
+daaf0cff-3df1-4d77-9c45-034ad42ca13a,"Digby - Walmart Pharmacy 1017 - Pfizer",279881,4942247,Digby,7
+d2064d3d-d205-4ab0-97be-c0ad34b27788,"Eastern Passage - Passage PharmaChoice (Eastern Passage Lions Club) - Pfizer",461471,4940180,Halifax,78.3
+da70fa47-14d8-4814-be2a-2974a30e4a16,"Elmsdale - Elmsdale Medical Centre",,,Halifax,78.3
+fbc58901-5066-468b-92e7-093a5dadb3b5,"Elmsdale - Elmsdale Guardian Pharmacy - Pfizer",460172,4980526,Hants,14.3
+060a6cc3-402f-4409-8170-99e6616cd122,"Elmsdale - Loblaw Pharmacy 375 - Pfizer",459894,4981048,Hants,14.3
+e8128878-b487-4da0-9639-57ea9830493b,"Enfield - Enfield PharmaChoice - Pfizer",457746,4976941,Hants,14.3
+d21ef1fa-8196-4b96-a2e6-39b25bf00418,"Eskasoni - Eskasoni PharmaChoice (Eskasoni Health Centre) - Pfizer",685364,5090597,"Cape Breton",40.4
+62a7db6d-5ffa-4d4a-a4d7-7cc5e777cdac,"Fall River - Shoppers Drug Mart 2021 - Pfizer",451744,4962781,Halifax,78.3
+b17efae1-aa3e-4366-a3f9-3eb225c2da6b,"Fall River - Shoppers Drug Mart 2021 - Moderna",451744,4962781,Halifax,78.3
+9d5b2610-bbc9-49aa-9d32-9d4463043436,"Fall River - Sobeys Pharmacy 739 - Pfizer",451749,4962956,Halifax,78.3
+2a8ad205-f98f-4462-9aca-79cacf1bf805,"Glace Bay - Black Diamond Pharmacy (Fergusons PharmaChoice) - Pfizer",734813,5121227,"Cape Breton",40.4
+ac0415d3-e7cf-4cd2-8d03-acc8e5d35e68,"Glace Bay - Black Diamond Pharmacy - Pfizer",734527,5120064,"Cape Breton",40.4
+c942a9e7-505f-4ba9-86b4-f9525a4465a7,"Glace Bay - Glace Bay Guardian Pharmacy - Pfizer",734619,5120949,"Cape Breton",40.4
+6366cbb3-f7ed-40f5-b626-b58d3d88b8e5,"Glace Bay - Lawtons Drugs 136 - Pfizer",734908,5120074,"Cape Breton",40.4
+ecbc7497-b7d1-43d5-8e2b-0d7f46eeb0c8,"Glace Bay - Loblaw Pharmacy 385 - Pfizer",733208,5119694,"Cape Breton",40.4
+e6b8e757-de02-43b9-9d52-4b66b4ae79ff,"Glace Bay - Shoppers Drug Mart 132 - Pfizer",734928,5120197,"Cape Breton",40.4
+60e73fd0-ad03-499b-8722-1b86aec496c2,"Glace Bay - Sobeys Pharmacy 328 - Pfizer",733334,5119889,"Cape Breton",40.4
+1a772772-fccb-4c11-a2cd-f45dd4be5de2,"Greenwood - Shoppers Drug Mart 582 - Pfizer",347176,4981494,Kings,29.4
+53f9ec09-eb6d-418f-b584-600feea12bb2,"Greenwood - Sobeys Pharmacy 746 - Pfizer",347125,4981185,Kings,29.4
+804274f0-c311-490b-99f3-5ae61a9f0dc0,"Greenwood - Walmart Pharmacy 1177 - Pfizer",348422,4981164,Kings,29.4
+ed8e5665-78ac-4331-ba92-34a0d5daa9cc,"Guysborough - Guysborough Pharmachoice (Chedabucto Lifestyle Complex) - Moderna",617190,5027035,Guysborough,1.9
+11a28899-8093-4fce-9152-f2864e33bf22,"Guysborough - Guysborough PharmaChoice - Pfizer",617385,5027761,Guysborough,1.9
+6b2dd468-7542-4843-975b-af8b62d8c8ff,"Halifax - Boyds Pharmasave - Pfizer",453042,4944751,Halifax,78.3
+bbe3533a-45f3-486c-8192-60068dab6209,"Halifax - Chaulks Family Pharmasave - Moderna",446757,4945192,Halifax,78.3
+a1fa002e-06f5-45e3-a53d-696f90258a86,"Halifax - Costco Pharmacy 519 (Bayers Lake) - Pfizer",446436,4945061,Halifax,78.3
+026461e9-332f-4949-a8be-8402aebe9346,"Halifax Forum - COVID-19 Clinic",452022,4944944,Halifax,78.3
+e6530590-dfcd-46b3-a1cd-02e0ccb2271a,"Halifax -- IWK COVID-19 Community Clinic",453769,4942865,Halifax,78.3
+7711672a-91f8-4fa4-b750-ef0238519090,"Halifax - Lawtons Drugs 112 (Bayers Road) - Pfizer",450259,4944866,Halifax,78.3
+14361aa3-fa85-4904-80d7-129e092e3db7,"Halifax - Lawtons Drugs 114 (Lord Nelson) - Pfizer",454085,4943417,Halifax,78.3
+a6df6359-9a5c-48bd-9a19-89e98d043ef3,"Halifax - Lawtons Drugs 132 (Spring Garden Professional) - Pfizer",453468,4943251,Halifax,78.3
+568950b3-8fb7-48b3-83cd-5895ac5f79fc,"Halifax - Lawtons Drugs 144 (Scotia Square) - Pfizer",454354,4944194,Halifax,78.3
+ad3a36e0-6d76-4ce5-b89d-ce61ab12b8eb,"Halifax - Lawtons Drugs 163 (Gladstone) - Pfizer",452602,4944579,Halifax,78.3
+42634b08-72aa-42fe-a6d3-886db158e14a,"Halifax - Lawtons Drugs 172 (Duffus Street) - Pfizer",451902,4946204,Halifax,78.3
+0b213f77-152d-41fe-bcfe-cf993b6d240b,"Halifax - Lawtons Drugs 2750 (Spryfield) - Pfizer",450798,4940130,Halifax,78.3
+ca668d93-db0e-4bbb-ae3e-c48e4603cf2e,"Halifax - Lawtons Drugs 2754 (Halifax Shopping Centre) - Pfizer",450937,4944186,Halifax,78.3
+89fb02c0-28a3-4368-b5d4-7ef58e244898,"Halifax - Loblaw Pharmacy 354 (Young Street) - Pfizer",451997,4945200,Halifax,78.3
+30eb41bc-245b-4534-909c-520fc0beb895,"Halifax - Loblaw Pharmacy 358 (Chain Lake Drive) - Pfizer",446530,4944710,Halifax,78.3
+ef49d41b-630a-4092-b394-ada6cc8d2eac,"Halifax - Loblaw Pharmacy 369 (Barrington Street) - Pfizer",454867,4942900,Halifax,78.3
+bb551371-8294-4892-9710-9a0a8d7b9187,"Halifax - Loblaw Pharmacy 379 (Joseph Howe Drive) - Pfizer",450259,4945100,Halifax,78.3
+662f72f1-2ba3-42e0-aee7-5d7f92f09dc0,"Halifax - Loblaw Pharmacy 383 (Quinpool Road) - Pfizer",452855,4943898,Halifax,78.3
+eee340ac-462e-4f36-9768-5249546a007a,"Halifax - Moffatts PharmaChoice (Gladstone Street) - Pfizer",452395,4944816,Halifax,78.3
+81b00c97-aecd-4532-88e6-8b1c5cd11346,"Halifax - Monaghan Pharmacy (Young Street) - Pfizer",452069,4945098,Halifax,78.3
+71e2c8c1-b513-400b-8a8a-8fd0f2d5eaee,"Halifax - Nova Guardian Pharmacy - Pfizer",453102,4943036,Halifax,78.3
+d33c4a02-2a0d-4f72-b1b3-d4d57706856b,"Halifax - Pharmasave North End - Pfizer",451864,4946222,Halifax,78.3
+511be171-bcc7-46bf-9c8d-e75b5172fda0,"Halifax - Rockingham Guardian Pharmacy (Ummah Mosque and Community Center) - Moderna",452597,4944308,Halifax,78.3
+22117a1b-865c-4774-b544-977b04cdaa41,"Halifax - Rockingham Guardian Pharmacy - Pfizer",447268,4946742,Halifax,78.3
+13189498-88ac-443f-82bc-353e34ebca9d,"Halifax - Scotia Guardian Pharmacy - Pfizer",453740,4944500,Halifax,78.3
+7c2f2422-a576-4ce0-a21e-3a9d40ae4136,"Halifax - Sentrex Pharmacy - Pfizer",447274,4942850,Halifax,78.3
+5b02b730-600d-431c-92d7-fa03fa3ab5a3,"Halifax - Shoppers Drug Mart 133 (Fenwick Street) - Pfizer",454425,4942913,Halifax,78.3
+ccc96fc8-b80c-4f70-a3c6-005b1293d413,"Halifax - Shoppers Drug Mart 134 (Herring Cove Road) - Pfizer",451138,4940413,Halifax,78.3
+ee5e5d7a-d635-4b9c-9352-d9aaae431586,"Halifax - Shoppers Drug Mart 136 (Lacewood Drive) - Pfizer",448092,4945539,Halifax,78.3
+246610d9-1e9b-44ae-8b98-5d0e038fa72e,"Halifax - Shoppers Drug Mart 138 (Joseph Howe Drive) - Pfizer",449974,4944751,Halifax,78.3
+3a1eef93-d419-45cf-8875-78b6df18a2cc,"Halifax - Shoppers Drug Mart 147 (Spring Garden Road) - Pfizer",454194,4943428,Halifax,78.3
+cec82baa-f631-4542-90ba-a8084953c866,"Halifax - Shoppers Drug Mart 2002 (Mumford Road) - Pfizer",450918,4943690,Halifax,78.3
+773f79bd-f65f-4655-b28b-4b086e3f1b68,"Halifax - Shoppers Drug Mart 2008 (Almon Street) - Pfizer",452445,4945070,Halifax,78.3
+5c2f80f8-0c56-4d12-85a1-28eb09e3411a,"Halifax - Sobeys Pharmacy 321 (Herring Cove Road) - Pfizer",451101,4940630,Halifax,78.3
+138785dd-a2dd-4b2b-a9d5-f10ba1712068,"Halifax - Sobeys Pharmacy 554 (Windsor Street) - Pfizer",452492,4944627,Halifax,78.3
+b5a82dd9-f8fd-4b6a-92a5-58e789c10b6c,"Halifax - Sobeys Pharmacy 574 (Queen Street) - Pfizer",454436,4942822,Halifax,78.3
+1dea7ee9-dc9c-4449-b712-9a35478a0f86,"Halifax - Sobeys Pharmacy 644 (Lacewood Drive) - Pfizer",447790,4945811,Halifax,78.3
+94c2a9ad-ae70-4bf6-9d21-1757060fcdfa,"Halifax - Sobeys Pharmacy 881 (Mumford Road) - Pfizer",450760,4943843,Halifax,78.3
+61e7adbd-893b-42f7-ab8b-29c1ac91f6c9,"Spryfield - Spryfield Guardian Pharmacy - Pfizer",450971,4941310,Halifax,78.3
+8b6974c9-de69-4cf1-af5c-8925838dec3d,"Halifax - The Medicine Shoppe Pharmacy 262 (Lacewood Drive) - Pfizer",449475,4945474,Halifax,78.3
+fa885a74-f3c7-4aa6-ae65-4d7f5c82e712,"Halifax - The Medicine Shoppe Pharmacy 283 (Quinpool Road) - Pfizer",452370,4943647,Halifax,78.3
+21204010-7ec7-476a-a0f2-0591808355ee,"Halifax - Walmart Pharmacy 3138 (Bayers Lake) - Pfizer",446468,4944847,Halifax,78.3
+c3319730-6c6c-45a6-8430-c0a6b1423f08,"Hammonds Plains - Hammonds Plains Pharmacy - Pfizer",437612,4953570,Halifax,78.3
+7a0b00ab-2407-424c-bf4a-91bc5707eba5,"Hammonds Plains - Kingswood Guardian Pharmacy - Pfizer",441581,4952485,Halifax,78.3
+833165fd-bb16-4325-9c28-005b6a46220e,"Hantsport - Cochranes Pharmasave (Churchill House) - Pfizer",407076,4990797,Hants,14.3
+1fb23c08-d571-41fe-b1ae-cb7415b5f839,"Hantsport - Cochranes Pharmasave - Pfizer",407122,4991030,Hants,14.3
+0dcf91db-9207-4608-b81b-a71ad33cfa15,"Hatchet Lake - Hatchet Lake Guardian Pharmacy - Pfizer",441901,4934438,Halifax,78.3
+95e8b3dd-58cf-4d6e-b477-2383ae325788,"Hubbards - Hubbards Pharmasave - Pfizer",415085,4943081,Lunenburg,16.5
+a26c574f-6761-476c-ade4-b7deb5b874b0,"Hubbards - Loblaw Pharmacy 4194 - Pfizer",415083,4943283,Lunenburg,16.5
+174561c9-6ccb-4f5c-8c7c-70f6c6c8b756,"Inverness - Freemans Pharmacy - Pfizer",630590,5120890,Inverness,4.5
+625269a7-7a75-49ba-951f-11d896c18aa1,"Kennetcook - Kennetcook Guardian Pharmacy - Pfizer",443304,5002811,Hants,14.3
+0b814262-ba66-49ea-892b-e0dc4e3589eb,"Kentville - Centennial Guardian Pharmacy - Pfizer",382164,4993410,Kings,29.4
+52c2ee8e-0dab-48a5-af3e-ac62116fc497,"Kentville - Clinic Pharmacy - Pfizer",382206,4993333,Kings,29.4
+e24e96a7-2a10-49ba-aa98-0a5f4cfb1b46,"Kentville - Lawtons Drugs 2555 - Pfizer",382321,4992631,Kings,29.4
+c5dfb7a0-695f-4878-a14d-6ceebfcbca9b,"Kentville - Wilsons Pharmasave - Pfizer",382157,4992837,Kings,29.4
+964fc098-399f-4c17-aa45-60f2efb71bf8,"Kingston - Loblaw Pharmacy 318 - Pfizer",346100,4983056,Kings,29.4
+656e9ed7-5762-4f8e-8bf4-e217e8c321fb,"Kingston - Valley Drug Mart Pharmasave 547 - Pfizer",346382,4983455,Kings,29.4
+28a26da7-bff6-464a-8152-b7b5ee0a65bd,"Liverpool - Loblaw Pharmacy 331 - Pfizer",361836,4878480,Queens,4.3
+6e94ce9d-d189-4cb8-8584-c1d59e72e54f,"Liverpool - Queens Community Clinic (Pfizer)",363341,4877469,Queens,4.3
+350a1a93-9bc8-4038-a18c-646fd1b4ad12,"Liverpool - Reynolds Pharmasave (Liverpool Legion) - Pfizer",362434,4877591,Queens,4.3
+dfb73549-c653-42e8-839e-bd6c3e9541b4,"Liverpool - Reynolds Pharmasave (Liverpool Legion) - Moderna",362434,4877591,Queens,4.3
+950b6cb3-6999-48aa-ad5f-1e05ff62607c,"Lockeport - Lockeport PharmaChoice - Pfizer",329720,4840571,Shelburne,5.7
+d9dcf53e-cbb9-4a95-8d1b-875187d0d75c,"Lockeport - Lockeport PharmaChoice - Moderna",329720,4840571,Shelburne,5.7
+884ebbb3-fb86-453e-9202-72a6d5f47ead,"Lower Sackville - Cobequid PharmaChoice - Pfizer",447853,4956488,Halifax,78.3
+95e497a0-0530-4d8f-8ee9-8bfb95e9188c,"Lower Sackville - Lawtons Drugs 2569 (Sackville Drive) - Pfizer",445528,4957671,Halifax,78.3
+908dc449-2c20-45a7-be63-f561cedea7d4,"Lower Sackville - Lawtons Drugs 895 (Cobequid Road) - Pfizer",447733,4956193,Halifax,78.3
+1963573f-5850-4d6f-b5d9-ad439acb30a2,"Lower Sackville - Loblaw Pharmacy 351 (Sackville Drive) - Pfizer",445320,4958054,Halifax,78.3
+74cec52e-71b4-4692-a659-16a24f781fb0,"Lower Sackville - Shoppers Drug Mart 146 - Pfizer",445134,4958065,Halifax,78.3
+f65adc4c-123b-425b-ac4d-693bcb2ad7b1,"Lower Sackville - Sobeys Pharmacy 670 (Downsview Plaza) - Pfizer",444999,4957835,Halifax,78.3
+0d7443d9-97ad-4d4c-b03e-705bec135686,"Lower Sackville - Sobeys Pharmacy 788 (First Lake Drive) - Pfizer",447017,4958576,Halifax,78.3
+e40e1fd5-fe93-4b4e-860d-b6f4d86a586b,"Lower Sackville - The Medicine Shoppe Pharmacy 270 - Moderna",445724,4957498,Halifax,78.3
+e21aa631-ceba-480a-91dd-2ba359615c8e,"Lunenburg - Kinley Drug PharmaChoice - Pfizer",395651,4914603,Lunenburg,16.5
+e7fd7b13-befe-4ae0-ad4e-a1b5507b75c9,"Lunenburg - Loblaw Pharmacy 4082 - Pfizer",394444,4914411,Lunenburg,16.5
+0c6f0a0e-5510-442e-a544-783c0cdeb521,"Mahone Bay - Kinburn Pharmasave 508 (Mahone Bay Fire Department Fire Station) - Pfizer",389701,4922510,Lunenburg,16.5
+47d2fd38-aaf1-461d-bd12-e5e9f4ba517d,"Masstown - Masstown Guardian Pharmacy - Pfizer",461348,5026661,Colchester,14.1
+a1dd5884-685d-498e-acea-1db5e5a7c191,"Membertou - Membertou Pharmasave - Pfizer",717020,5111077,"Cape Breton",40.4
+416d10e3-b6cf-464a-8a49-808bf3b3f695,"Meteghan Centre - Clare Pharmasave - Pfizer",248932,4899212,Digby,7
+c0f18055-0bac-4be5-b977-963e0f66c78e,"Middle Musquodoboit - Haverstock Pharmasave - Pfizer",488505,4987891,Halifax,78.3
+89c9ebbc-ff67-418a-8a2d-2dae2236a8e5,"Middle Musquodoboit - Haverstock Pharmasave - Moderna",488505,4987891,Halifax,78.3
+812a8f1d-1efb-4472-9a85-e17f17ec27cc,"Middle Sackville - Middle Sackville Pharmasave - Pfizer",442727,4960369,Halifax,78.3
+2fc83b31-fbaa-42d0-b181-2ecaf90e5bb3,"Middleton - Valley Drug Mart Pharmasave - Pfizer",336822,4978705,Annapolis,6.7
+52a491d2-8687-42f8-a529-3695bac62d55,"Mineville - Mineville Guardian Pharmacy - Pfizer",469212,4950909,Halifax,78.3
+9d60366c-bc6d-44cd-b04f-5c18d0275c65,"Mount Uniacke - Mount Uniacke Guardian Pharmacy - Pfizer",434233,4971548,Hants,14.3
+4bab075e-c3a0-42e5-95cb-d7d079340d80,"Musquodoboit Harbour - Forest Hill Guardian Pharmacy - Pfizer",488224,4959336,Halifax,78.3
+b9f317f0-046b-4a74-8998-91107e1cd2c0,"Musquodoboit Harbour - Lawtons Drugs 145 - Pfizer",488609,4959602,Halifax,78.3
+122ee2d1-b9e6-47ef-adc5-99e0071440d2,"Neils Harbour - Highland PharmaChoice - Pfizer",704490,5188033,Victoria,2.5
+54be588b-ab14-430c-88f8-700df29c022d,"New Germany - Shoppers Drug Mart 144 - Pfizer",363599,4933548,Lunenburg,16.5
+f1c85f63-aee1-429c-b893-1ad9e93512f6,"New Glasgow - Lawtons Drugs 2563 - Pfizer",527945,5046722,Pictou,15.5
+b9e2ae80-e78f-481e-aa45-6c378c2eb137,"New Glasgow - Loblaw Pharmacy 368 - Pfizer",526513,5047446,Pictou,15.5
+21b0bc37-f9a9-4201-b97b-f6c57b870f04,"New Glasgow - Shoppers Drug Mart 140 - Pfizer",527960,5046414,Pictou,15.5
+88585a03-2d17-43bf-a241-6f951dbc1965,"New Glasgow - Sobeys Pharmacy 370 (East River Road) - Pfizer",528070,5047232,Pictou,15.5
+d4acd9ce-5e4d-420c-974d-4a0d2609abf9,"New Glasgow - Sobeys Pharmacy 652 (George Street) - Pfizer",527370,5048712,Pictou,15.5
+0e0e8af5-edf1-4a9a-a266-3694039ea3a5,"New Glasgow - The Medicine Shoppe Pharmacy 172- Pfizer",527851,5047443,Pictou,15.5
+8fa332f0-71fe-4393-8a8d-64dff9561a0a,"New Glasgow - Walmart Pharmacy 3061 - Pfizer",525732,5047464,Pictou,15.5
+235f2c01-cfa1-431c-988c-149fbcf93f4a,"New Minas - Lawtons Drugs 2561 - Pfizer",386635,4991710,Kings,29.4
+7e372804-1c42-46c3-92d0-3b32f669289b,"New Minas - Lawtons Drugs 2561 - Moderna",386635,4991710,Kings,29.4
+4b76975f-ea50-4124-8e8a-ec2f9b493ebd,"New Minas - Loblaw Pharmacy 344 - Pfizer",385381,4991407,Kings,29.4
+93b90051-46fb-454b-95de-b0e3c51efe4a,"New Minas (Baptist Church) -- COVID-19 Clinic",387129,4992185,Kings,29.4
+b174255a-9474-45b1-ac69-1cce71f9bd5e,"New Minas - New Minas PharmaChoice - Pfizer",384233,4991633,Kings,29.4
+bb2dd834-3de6-41fc-9b13-732c33fa89ca,"New Minas - Sobeys Pharmacy 747 - Pfizer",386440,4991343,Kings,29.4
+1bf623d3-bcc5-4612-ad29-9eb5f99de5c4,"New Minas - Walmart Pharmacy 3738 - Pfizer",385680,4991658,Kings,29.4
+79f8a721-048f-41a1-a49a-c4fc2946642e,"New Waterford - Black Diamond Pharmacy (Old Versatile Video Building) - Pfizer",724351,5125870,"Cape Breton",40.4
+0503e08e-8f2f-403a-8812-643f891f27c1,"New Waterford - Lawtons Drugs 118 - Pfizer",724523,5125878,"Cape Breton",40.4
+29fb0862-bdf9-4153-9c9c-a15ecd9ce4ff,"New Waterford - Midtown Pharmasave - Pfizer",724469,5125925,"Cape Breton",40.4
+83348345-248d-4052-acd6-b4f6c37e3d94,"North Sydney - Loblaw Pharmacy 321 - Pfizer",711158,5121560,"Cape Breton",40.4
+985ae8e1-89fe-4c9e-8678-c543577c36b3,"North Sydney - Pharmasave North Sydney 827 - Pfizer",711205,5121489,"Cape Breton",40.4
+604f56fe-989b-4b80-95f7-09c5f1a9ac94,"North Sydney - Shoppers Drug Mart 148 - Pfizer",711082,5121633,"Cape Breton",40.4
+4741f0e1-5ef1-4b77-98a4-c23e7df723a1,"North Sydney - Sobeys Pharmacy 510 - Pfizer",710939,5121459,"Cape Breton",40.4
+f930b7ed-5add-4297-b39b-3c185eae5355,"Parrsboro - Wrights Pharmasave - Pfizer",396169,5028685,Cumberland,7.1
+7afbf533-f790-41e3-9592-0ce86e6497de,"Pictou - Fulmores PharmaChoice - Pfizer",522643,5058041,Pictou,15.5
+15f1ceef-92a7-434e-8dca-dc3f44e26790,"Pictou - Pictou Pharmasave (New Caledonia Curling Club) - Pfizer",522513,5058049,Pictou,15.5
+6eb431c2-d745-4f55-aa29-7b6703ade2dd,"Pictou - Pictou Pharmasave (Water Street) - Pfizer",522563,5058075,Pictou,15.5
+374fb4fb-1d04-4b43-9d44-81f616922039,"Pictou - Sobeys Pharmacy 232 - Moderna",507510,5033666,Pictou,15.5
+b5760f66-01a4-40e2-ae4f-275f09b77232,"Porters Lake - Lawtons Drugs 2576 - Pfizer",477528,4954548,Halifax,78.3
+fe558816-70ef-4d3b-8e80-e0d0a6c9cee2,"Porters Lake - Loblaw Pharmacy 367 - Pfizer",477715,4954439,Halifax,78.3
+f4ebcb00-dc5b-44e2-8b6a-3edaeafd1bfe,"Port Hawkesbury - Shoppers Drug Mart 153 - Pfizer",628438,5052775,Inverness,4.5
+97ca5e9c-9995-4a46-9560-27fbd64d2e09,"Port Hawkesbury - Shoppers Drug Mart 153 - Moderna",628438,5052775,Inverness,4.5
+7cabce9e-e27f-453d-8d4a-c22a9cf3833b,"Port Hawkesbury - The Medicine Shoppe Pharmacy 288 - Pfizer",628615,5052611,Inverness,4.5
+8f5f305c-9687-4791-8e4d-02f9b556faad,"Port Hawkesbury - Walmart Pharmacy 3068 - Pfizer",629874,5052774,Inverness,4.5
+ea22c4a0-6bf6-46df-a718-8a064c6b77d9,"Pugwash - OBriens PharmaChoice (St Thomas More Church Hall) - Pfizer",448850,5077817,Cumberland,7.1
+3b32d53a-979d-4aba-80b1-c1d9d9a48ea2,"River John - CG Fulton Guardian Pharmacy (River John Fire Hall) - Pfizer",495402,5066332,Pictou,15.5
+3dc2ebb1-7e4d-4206-a83a-9b44d1313db2,"Saulnierville - Saulnierville PharmaChoice - Pfizer",250186,4905369,Digby,7
+2901a822-d151-4bb0-b3bf-5d1ed48a95a3,"Sheet Harbour - Lawtons Drugs 162 - Pfizer",536754,4974220,Halifax,78.3
+37b8da31-47da-46a6-8836-027b2f4c7622,"Shelburne - Lawtons Drugs 133 - Pfizer",313971,4848509,Shelburne,5.7
+3da1c1fc-3ac8-4b5e-9cac-adc6c2e85b4f,"Shelburne (Shelburne Regional High School) -- COVID-19 Community Clinic",314765,4849051,Shelburne,5.7
+4055baa2-6750-4a68-bb16-f473b089bfe3,"Shelburne - TLC Pharmasave (Enterprise Square) - Moderna",312958,4848153,Shelburne,5.7
+9ccfc281-f3a8-493b-87ac-276fc7610cc9,"Shelburne - TLC Pharmasave (Shelburne Fire Hall) - Pfizer",313494,4848340,Shelburne,5.7
+b9880e49-9d31-4256-9b88-4c4d48a4f6d4,"Sherbrooke - Shoppers Drug Mart 159 - Pfizer",579926,4999230,Guysborough,1.9
+f632d932-f0b2-47c5-ad2d-2ce7b1b56864,"Shubenacadie - Shubenacadie Guardian Pharmacy - Pfizer",467892,4992636,Hants,14.3
+fb925c9c-741e-4fff-9985-2e5386156fe7,"Springhill - Ross Anderson Pharmacy (Dr Carson and Marion Murray Community Centre) - Pfizer",417195,5055473,Cumberland,7.1
+d899fd3f-1f77-43cf-ad08-8fce5b1583b0,"Springhill - Springhill Community Guardian Pharmacy - Pfizer",417501,5055753,Cumberland,7.1
+4afcfb83-7b2d-42f5-b7ab-91eec767da1f,"Stellarton - Medical Hall Pharmasave (First Presbyterian Church) - Pfizer",526517,5045221,Pictou,15.5
+73d22c5b-39db-42ed-9895-fa33e53c15e9,"Stellarton - Pharmacy First Ltd - Pfizer",526503,5045009,Pictou,15.5
+3862c76b-5c76-4852-b34f-717eac131c02,"Stewiacke - Stewiacke Guardian Pharmacy - Pfizer",472336,4998381,Colchester,14.1
+1c298390-4789-4420-8454-1fd5e76606c3,"St Peters - Foodland Pharmacy - Pfizer",665682,5058036,Richmond,7.4
+0129a177-a9ce-4a73-9221-1542f77213cc,"St Peters - MacDonnell Guardian Pharmacy (St Peters Fire Hall) - Pfizer",665721,5057992,Richmond,7.4
+9ff733a4-8098-40bc-a591-a229c6966cd2,"Sydney Area -- COVID-19 Community Clinic",724346,5117087,"Cape Breton",40.4
+fd35c3e2-bc4d-4edd-8e86-9a6806fb4bec,"Sydney Forks - Meadows Pharmasave - Pfizer",709968,5105325,"Cape Breton",40.4
+a4d5f9b3-cea4-4a67-b9c3-e22e2fd96efb,"Sydney - HealthPark Pharmasave - Pfizer",718248,5110537,"Cape Breton",40.4
+46190448-f974-410f-86c6-17577793f537,"Sydney - Lawtons Drugs 150 (George Street) - Pfizer",716850,5112960,"Cape Breton",40.4
+3d3f3db5-a8a8-4e16-99bc-9af07b4f998e,"Sydney - Loblaw Pharmacy 6802 (Welton Street) - Pfizer",719098,5113850,"Cape Breton",40.4
+6b499b21-d018-4b7b-8c4b-ebe3ec5018b4,"Sydney Mines - Capital Drugs Ltd PharmaChoice - Pfizer",713604,5124704,"Cape Breton",40.4
+4b529f21-390f-4909-a2d0-e06f01f90fdc,"Sydney Mines - Sextons Pharmasave - Pfizer",713762,5124678,"Cape Breton",40.4
+2a07c194-7581-413c-a754-a18475cdf33b,"Sydney - Pharmasave Charlotte Street - Pfizer",716711,5113151,"Cape Breton",40.4
+77495831-b55b-442d-8d0a-2c15c18e0c34,"Sydney - Pier Pharmasave (Victoria Road) - Pfizer",717443,5115321,"Cape Breton",40.4
+951cbf4b-acf3-450f-9804-13bf465ef069,"Sydney River - Loblaw Pharmacy 373 - Pfizer",714582,5109782,"Cape Breton",40.4
+e0a8d1b2-6483-497d-a125-560b51f649ad,"Sydney River - Shoppers Drug Mart 149 - Pfizer",714641,5110014,"Cape Breton",40.4
+c6149bd4-ed53-4c11-bfd3-418d95fab1de,"Sydney River - Sobeys Pharmacy 630 - Pfizer",714328,5110070,"Cape Breton",40.4
+fca8b207-8fa4-4461-bf68-5bcfa6ceee19,"Sydney River - Walmart Pharmacy 3100 (Keltic Drive) - Pfizer",714359,5109971,"Cape Breton",40.4
+52b86203-d391-41a6-b4d7-db3e06b137bd,"Sydney - Shoppers Drug Mart 150 (Sydney Shopping Centre) - Pfizer",717291,5113209,"Cape Breton",40.4
+14d57da7-9598-442a-a03e-556e94b92517,"Sydney - Sobeys Pharmacy 728 - Pfizer",717399,5113237,"Cape Breton",40.4
+77e207d8-62b8-46bf-8898-1f10695c3303,"Sydney - The Medicine Shoppe Pharmacy 229 (Kings Road) - Pfizer",716325,5111785,"Cape Breton",40.4
+49e2430d-6ed5-4b2c-8a6c-a95c6dfe0694,"Sydney - The Medicine Shoppe Pharmacy 258 (Welton Street) - Pfizer",719011,5113886,"Cape Breton",40.4
+b2e1778d-b8f2-4023-96a7-2328cbca30b6,"Sydney - Walmart Pharmacy 3101 (Sydney Port Access Road) - Pfizer",720206,5114811,"Cape Breton",40.4
+1c0d0e38-e9a3-4800-8516-0285b1acb5db,"Tatamagouche - CG Fulton Guardian Pharmacy (Tatamagouche Fire Hall) - Pfizer",477154,5062155,Colchester,14.1
+e6fb818d-3972-41ae-ac65-0ca00b65effb,"Timberlea - Sobeys Pharmacy 329 - Pfizer",443154,4942881,Halifax,78.3
+d09aa372-579e-4641-b527-cd5e778caf36,"Timberlea - Timberlea Guardian Pharmacy - Pfizer",443551,4943736,Halifax,78.3
+81f2f62b-be6b-49bf-9d03-b3bc6750c816,"Trenton - Trenton Pharmasave 841 (First United Church Hall) - Pfizer",528213,5051001,Pictou,15.5
+55fc757b-052e-49a5-a3c6-6b912e51193d,"Trenton - Trenton Pharmasave (Trenton Rink Annex) - Pfizer",528832,5052197,Pictou,15.5
+037795c0-b9fe-4992-8fb3-04ffdf45a52d,"Trenton - Trenton Pharmasave 841 - Pfizer",528180,5050931,Pictou,15.5
+2a60b2fb-4e61-4734-961b-67eac966da02,"Truro - Fraser Guardian Pharmacy - Pfizer",478883,5024319,Colchester,14.1
+a41df1d8-f5ff-4957-abff-d687973b8d7a,"Truro - Lawtons Drugs 875 (Willow Street) - Pfizer",476895,5022366,Colchester,14.1
+21a087df-a6da-41bd-b3f8-710b75f93ff1,"Truro - Loblaw Pharmacy 336 - Pfizer",477404,5023814,Colchester,14.1
+10a43562-4a49-4f19-ae77-7a19a043b727,"Truro - MacQuarries Pharmasave 512 - Pfizer",478534,5023444,Colchester,14.1
+9694cb48-2010-42e1-8369-87a4da33eb7f,"Truro -- COVID-19 Community Clinic",477405,5022948,Colchester,14.1
+c3ffef1f-e721-43f7-9d4e-f38ccfd18bf1,"Truro - Shoppers Drug Mart 152 - Pfizer",475770,5023855,Colchester,14.1
+ee54768e-1133-4fa1-80a4-74d62e920761,"Truro - Sobeys Pharmacy 594 (Robie Street) - Pfizer",475491,5023678,Colchester,14.1
+20392328-ebb2-4973-8693-12f945a6e4cd,"Truro - Sobeys Pharmacy 871 (Prince Street) - Pfizer",478752,5023577,Colchester,14.1
+83dcd9bc-92d8-4428-bcd9-07e2161650db,"Truro - The Medicine Shoppe Pharmacy 177 (Willow Street) - Pfizer",477054,5022275,Colchester,14.1
+f79fb291-def6-4a87-b4c5-380d2162a115,"Truro - The Medicine Shoppe Pharmacy 339 (Robie Street) - Pfizer",476280,5024197,Colchester,14.1
+b3ac2139-70bd-4b6c-80ee-1c20dbdc12ed,"Truro - Walmart Pharmacy 3184 - Pfizer",476019,5022222,Colchester,14.1
+ed90c140-7ede-41a6-8d33-0a8c2f49655f,"Truro - West End Family PharmaChoice - Pfizer",477618,5023559,Colchester,14.1
+282929ce-acb9-423a-95cf-ae0767eeb008,"Upper Tantallon - Lawtons Drugs 2551 - Pfizer",430621,4948360,Halifax,78.3
+0bda0eb5-5d10-494e-8a28-8b1702dfad45,"Upper Tantallon - Loblaw Pharmacy 313 - Pfizer",430312,4948525,Halifax,78.3
+a870a30c-a411-484b-8459-c0d6fa3fba12,"Upper Tantallon - Sobeys Pharmacy 684 - Pfizer",431957,4950433,Halifax,78.3
+bd7d5083-d3e1-4ae1-8f1a-8ad5f34d0c17,"Upper Tantallon - Sobeys Pharmacy 684 (Hammonds Plains Road) - Moderna",431957,4950433,Halifax,78.3
+45c4a9ed-ef16-4596-854a-518c7c0eeb4d,"Upper Tantallon - Tantallon Pharmasave - Pfizer",430209,4948675,Halifax,78.3
+37b448b4-86df-48dc-8354-0ddbe10c7212,"Upper Tantallon - The Medicine Shoppe Pharmacy 392 - Pfizer",432111,4950434,Halifax,78.3
+eef6350f-078a-44b4-9fb5-16c65f867e85,"Waverley - Fall River Guardian Pharmacy (Royal Canadian Legion Waverley) - Moderna",452066,4958400,Halifax,78.3
+28f0c858-2050-43e7-8aac-364a9a049c03,"West Pubnico - West Pubnico Pharmasave - Pfizer",274221,4838244,Yarmouth,11.7
+9aef0b0a-e2c2-4861-b1d1-ca13e7c2f688,"Westville - Lawtons Drugs 879 - Pfizer",522356,5045108,Pictou,15.5
+9fe9ed5c-5fef-4312-be85-4a999b248138,"Weymouth (St Marys Bay Academy) -- COVID -19 Community Clinic",259818,4921914,Digby,7
+4732f58c-90de-4bb4-99e3-abf28e8a9614,"Weymouth - Weymouth Pharmasave 580 (Sissiboo Landing) - Pfizer",261353,4921705,Digby,7
+5ee7e970-9b90-413f-bd4c-6437b55ded50,"Weymouth - Weymouth Pharmasave 580 (Weymouth Waterfront Library) - Pfizer",261346,4921678,Digby,7
+50d384f3-db0d-459a-b4bb-d3d2c506278b,"Weymouth - Weymouth Pharmasave 580 (Sissaboo Landing) - Moderna",261353,4921705,Digby,7
+7bf2e6fa-ab7f-433e-8f77-15611ce1d325,"Whycocomagh - MacKeigans Guardian Pharmacy - Pfizer",645329,5092966,Inverness,4.5
+f21772b3-575a-4793-97b6-33eab15705a5,"Windsor - Lawtons Drugs 119 - Pfizer",410995,4982597,Hants,14.3
+91d0bae8-7d5c-46ac-9334-fa66bcd9864e,"Windsor - Loblaw Pharmacy 377 - Pfizer",412265,4982300,Hants,14.3
+20a3254b-0ceb-409a-bb4a-f353a45b02b6,"Windsor - Sobeys Pharmacy 672 - Pfizer",411120,4982878,Hants,14.3
+f64df4ee-e76e-4a88-9e82-f455addfd939,"Windsor - Windsor Pharmasave (Avon Medical Clinic) - Pfizer",410282,4982989,Hants,14.3
+dcaa92a2-5465-4842-b1d7-7843b3b6927d,"Wolfville - Cochranes Pharmasave (Wolfville Lions Club) - Pfizer",392626,4994225,Kings,29.4
+e72be2cc-663c-4f80-bfef-57f16cf3f6a8,"Wolfville - Shoppers Drug Mart 158 - Pfizer",392827,4993973,Kings,29.4
+53285406-f2d7-4c2b-bcd9-8eb4d394ccc9,"Yarmouth - City Drug Store PharmaChoice - Pfizer",249185,4858481,Yarmouth,11.7
+5ac1890a-c447-448d-b9ff-e8679844c46f,"Yarmouth - Harbour South Pharmasave - Pfizer",249163,4858110,Yarmouth,11.7
+fd8c7298-fb12-4790-adf7-5cb12527c936,"Yarmouth - Lawtons Drugs 169 - Pfizer",250372,4859321,Yarmouth,11.7
+85f7d429-a2a9-456e-99a3-3bb693b5ed92,"Yarmouth - Loblaw Pharmacy 372 - Pfizer",250748,4859284,Yarmouth,11.7
+4408f345-42ab-42bb-a870-3ea00359e01d,"Ocean View Family Practice and Dalhousie Medical Education Unit (Pfizer)",249098,4860009,Yarmouth,11.7
+dc895caa-2db2-4ddc-bafe-ca54ec1ec43d,"Yarmouth - Shoppers Drug Mart 155 - Pfizer",250084,4859410,Yarmouth,11.7
+f2252e5f-cc0c-4359-8a69-9a640ec7d40f,"Yarmouth - Spears and MacLeod Pharmasave - Pfizer",249181,4858393,Yarmouth,11.7
+d05daf9d-6bdd-4df5-a8c6-7fa039f6e498,"Yarmouth - Walmart Pharmacy 1016 - Pfizer",250995,4859390,Yarmouth,11.7
+,,,,NULL,NULL
