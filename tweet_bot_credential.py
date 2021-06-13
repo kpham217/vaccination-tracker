@@ -32,6 +32,9 @@ def tw_create_api():
 def fb_create_app():
     # The Graph API allows you to read and write data to and from the Facebook social graph
     api_fb = fb.GraphAPI(FB_ACCESS_TOKEN)
+    fb.get_user_from_cookie()
+    fb.parse_signed_request()
+    fb.get_user_from_cookie()
 
     return api_fb
 
