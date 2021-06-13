@@ -36,6 +36,8 @@ def create_eligible_list(ref_list, updated_list):
 
 def request_booking_time(site_list, booking_time_link):
     print("> Request booking time for each site")
+    if not site_list:
+        return site_list
     for index, item in enumerate(site_list):
         request = booking_time_link[0] + item['id'] + booking_time_link[1]
         # print(request)
@@ -55,6 +57,8 @@ def request_booking_time(site_list, booking_time_link):
 
 def calculate_time_score(site_list):
     print("> Scoring each site based on its nearest available date")
+    if not site_list:
+        return site_list
     site_list.sort(key=lambda i: datetime.strptime(i['bookingTime'], "%Y-%m-%dT%H:%M:%SZ"))
     earliest = datetime.strptime(site_list[0]['bookingTime'], "%Y-%m-%dT%H:%M:%SZ")
     furthest = datetime.strptime(site_list[len(site_list)-1]['bookingTime'], "%Y-%m-%dT%H:%M:%SZ")
@@ -86,9 +90,8 @@ def processing(ref_list, updated_list, booking_time_link):
     print(ref_list)
     available_site_list = create_eligible_list(ref_list, updated_list)
     print(available_site_list)
+    available_site_list = request_booking_time(available_site_list, booking_time_link)
+    available_site_list = calculate_time_score(available_site_list)
+    available_site_list = available_site_list[0:20]
 
-    if available_site_list:
-        available_site_list = request_booking_time(available_site_list, booking_time_link)
-        available_site_list = calculate_time_score(available_site_list)
-        available_site_list = available_site_list[0:20]
     return available_site_list
