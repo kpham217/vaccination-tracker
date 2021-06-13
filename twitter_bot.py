@@ -8,7 +8,7 @@ import itertools
 
 
 WAIT_SECONDS = 1800#900
-counter = 2
+counter = -1
 
 
 def set_global():
