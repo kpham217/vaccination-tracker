@@ -83,7 +83,12 @@ def aslocaltimestr(utc_dt):
 
 
 def processing(ref_list, updated_list, booking_time_link):
+    print(ref_list)
     available_site_list = create_eligible_list(ref_list, updated_list)
-    available_site_list = request_booking_time(available_site_list, booking_time_link)
-    available_site_list = calculate_time_score(available_site_list)
-    return available_site_list[0:5]
+    print(available_site_list)
+
+    if available_site_list:
+        available_site_list = request_booking_time(available_site_list, booking_time_link)
+        available_site_list = calculate_time_score(available_site_list)
+        available_site_list = available_site_list[0:5]
+    return available_site_list
