@@ -7,7 +7,7 @@ import threading
 import itertools
 
 
-WAIT_SECONDS = 1800
+WAIT_SECONDS = 3600#1800
 counter = 0
 
 
@@ -57,7 +57,7 @@ def create_tweet(api_tw, api_fb, site_list,region_count):
                 new = f"📍 {new_list[i]['siteName']}\n🗓 {new_list[i]['readableBookingTime']}\n\n"
                 content = content + new
             content += "Book here: https://tinyurl.com/ns-vax-book\n"
-            # content += "#NS #COVID19\n"
+            content += "#NS #NovaScotia #COVID19 #Vaccine #VaccinateNS\n"
 
 
 
