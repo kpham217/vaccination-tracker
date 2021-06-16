@@ -7,7 +7,7 @@ import threading
 import itertools
 
 
-WAIT_SECONDS = 3600#1800
+WAIT_SECONDS = 5400#3600
 counter = 0
 
 
