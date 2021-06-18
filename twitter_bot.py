@@ -8,7 +8,7 @@ import itertools
 
 
 WAIT_SECONDS = 5400#3600
-counter = 0
+counter = 1
 
 
 def set_global(region_count):
